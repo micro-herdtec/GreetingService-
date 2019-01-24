@@ -1,0 +1,14 @@
+# Spring properties
+spring:
+  application:
+     name: greeting-service  # Service registers under this name
+
+# Discovery Server Access
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7777/eureka/
+
+# HTTP Server
+server:
+  port: 7778 # HTTP (Tomcat) port
